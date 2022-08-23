@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+variable 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+:root{
+    --lg-color:linear-gradient(to left,#74ebd5,#9face6);
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+our header section start
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+.header{
+    
+    padding: 0 4.8rem;
+    height: 5rem;
+    background: var(--lg-color);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 1rem;
+}
+
+.navbar-lists{
+    
+    text-decoration: none;
+    float: left;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+our main hero section start
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.section{
+    padding: 1.8rem 3rem;
+    
+    
+}
+.grid{
+    display: grid;
+}
+.grid-three-column{
+    grid-template-columns: repeat(3,1fr);
+}
+.container{
+    place-self: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 2rem;
+
+}
+
+.three-column{
+    
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    width: 30rem;;
+    height: 7.2rem;
+    place-self: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+   
+    
+
+
+
+}
+.smalldivone{
+
+    width: 6.2rem;
+    height: 5.2rem;
+    position:relative;
+    left: 3rem;
+    top: -3rem;
+    border:2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#img1{
+    
+    background-image: url(./images/ales-krivec-ZMZHcvIVgbg-unsplash.jpg);
+}
+
+   #img1 img{
+    width: 8rem;
+    height: 3rem;
+
+
+   } 
+  
+
+
+
+.container1{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+}
+.three1-column{
+    
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    width: 30rem;;
+    height: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0;
+    
+    
+    }
+    .one-column{
+        border: 2px solid black;
+    border-radius: 3rem;
+    width: 25rem;;
+    height: 10rem;
+    
+   
+
+    }
+    /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+our footer section start
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.footer{
+    background-color:rgb(0,10,45);
+}
+
+
+
+
+
